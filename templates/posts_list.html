@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Post List</title>
 </head>
 <body>
     <h1>Homepage</h1>
     <ul>
-        {% for post in posts_list %}
+        {% for post in post_list %}
         <li>{{ post.text }}</li>
         {% endfor %}
     </ul>
